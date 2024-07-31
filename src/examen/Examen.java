@@ -7,7 +7,7 @@ public class Examen {
    int miInicial [][]= {{10, 20, 30, 40}, {1, 2, 3, 4}, {20, 21, 22, 23}};
    int Mcopia [][] = new int[3][4];
    int fila =2;
-   int col = 2;
+   int col = 3;
    
         for (int i = 0; i <miInicial.length; i++) {
             for (int j = 0; j < miInicial[0].length; j++) {
@@ -15,7 +15,7 @@ public class Examen {
              col--;   
             }
             fila--;
-            col =2;
+            col =3;
         }
          for (int i = 0; i <miInicial.length; i++) {
             for (int j = 0; j < miInicial[0].length; j++) {
